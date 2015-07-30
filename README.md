@@ -3,6 +3,7 @@ Simple queued & clustered PhantomJS processing. https://www.npmjs.com/package/gh
 
 *Now with 20% more creepiness! Check out Ghost Town 2's breaking changes in [CHANGELOG.md](CHANGELOG.md).*
 
+The communication to PhantomJS is made using the phantom npm package, which has small differences in usage with PhantomJS. Check them in the __Functionality Details__ of the README available here: https://github.com/sgentle/phantomjs-node
 ---
 
 Need highly scalable PhantomJS processing? Ghost Town makes it frighteningly easy! For example, on-demand page rendering, dispatched through Thrift:
